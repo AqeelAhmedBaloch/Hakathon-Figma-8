@@ -1,5 +1,6 @@
 import React from "react";
 import PopularProducts from "./PopularProduct";
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -25,7 +26,7 @@ const AboutUs = () => {
         </div>
 
         <div className="flex items-center justify-center bg-gray-200">
-          <img
+          <Image
             src="/Card.png"
             alt="Chair"
             className="object-cover w-full h-full"
@@ -56,7 +57,7 @@ const AboutUs = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <h4 className="font-semibold mb-2">Unbeatable prices</h4>
             <p className="text-sm">
-              For our materials and quality, you won’t find better prices
+              For our materials and quality, you won't find better prices
               anywhere.
             </p>
           </div>

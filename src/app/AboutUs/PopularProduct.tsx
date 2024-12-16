@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const PopularProducts = () => {
@@ -34,7 +35,7 @@ const PopularProducts = () => {
           <div key={product.id} className="text-start">
             {/* Product Image */}
             <div className="mb-4">
-              <img
+              <Image
                 src={product.image}
                 alt={product.name}
                 className="object-cover rounded-lg"
