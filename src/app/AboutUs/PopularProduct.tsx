@@ -30,7 +30,7 @@ const PopularProducts = () => {
       <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Popular Products</h2>
 
       {/* Product Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40">
         {products.map((product) => (
           <div key={product.id} className="text-start">
             {/* Product Image */}
@@ -38,6 +38,8 @@ const PopularProducts = () => {
               <Image
                 src={product.image}
                 alt={product.name}
+                width={300}
+                height={350}
                 className="object-cover rounded-lg"
               />
             </div>

@@ -14,9 +14,9 @@ const AboutUs = () => {
               About Us - Comforty
             </h2>
             <p className="text-base mb-6">
-              At Comforty, we believe that the right chair can transform your
+              At Comforty we believe that the right chair can transform your
               space and elevate your comfort. Specializing in ergonomic design,
-              premium materials, and modern aesthetics, we craft chairs that
+              premium materials and modern aesthetics we craft chairs that
               seamlessly blend style with functionality.
             </p>
             <button className="bg-white text-teal-800 px-6 py-2 rounded-md font-semibold hover:bg-gray-100">
@@ -29,7 +29,9 @@ const AboutUs = () => {
           <Image
             src="/Card.png"
             alt="Chair"
-            className="object-cover w-full h-full"
+            width={400}
+            height={400}
+            className="object-cover w-[619px] h-[478px]"
           />
         </div>
       </section>
@@ -57,7 +59,7 @@ const AboutUs = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <h4 className="font-semibold mb-2">Unbeatable prices</h4>
             <p className="text-sm">
-              For our materials and quality, you won't find better prices
+              For our materials and quality you wont find better prices
               anywhere.
             </p>
           </div>
