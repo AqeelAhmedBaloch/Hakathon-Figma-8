@@ -25,22 +25,22 @@ const PopularProducts = () => {
   ];
 
   return (
-    <section className="md:px-12 lg:px-24 py-8">
+    <section className="md:px-12 lg:px-18 py-4">
       {/* Section Heading */}
       <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Popular Products</h2>
 
       {/* Product Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 space-x-16">
         {products.map((product) => (
           <div key={product.id} className="text-start">
             {/* Product Image */}
-            <div className="mb-4">
-              <Image
+            <div className="mb-3">
+              <img
                 src={product.image}
                 alt={product.name}
-                width={300}
-                height={350}
-                className="object-cover rounded-lg"
+                width={200}
+                height={300}
+                className="object-cover w-[400px] h-[300px]"
               />
             </div>
 
