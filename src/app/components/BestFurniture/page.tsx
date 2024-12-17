@@ -7,7 +7,7 @@ const heebo = Heebo({subsets:['latin']})
 const HomePage1 = () => {
   return (
     // bg-[#F0F2F3]
-    <div className='my-[50px] p-3 mx-auto w-[100%] md:w-[1300px] md:h-[650px] flex flex-col-reverse md:flex-row items-center justify-between rounded-b-lg bg-[#d0e1ea]'>
+    <div className='my-[50px] p-3 mx-auto w-[100%] md:w-[1280px] md:h-[600px] flex flex-col-reverse md:flex-row items-center justify-between rounded-b-lg bg-[#d0e1ea]'>
       {/* Text div */}
       <div className='ml-20 md:w-[521px] h-[275px] flex flex-col md:justify-between items-start justify-evenly'>
       <h1 className="text-[12px]">Welcome to chairy</h1>
@@ -16,10 +16,9 @@ const HomePage1 = () => {
       </div>
       {/* Image div*/}
       <div className='w-[292px] h-[270px] relative'>
-        <Image src={"/ProductImage.png"} alt ='Product' width={200} height={200} className='z-50' />
+        <Image src={"/ProductImage.png"} alt ='Product' width={270} height={270} />
       </div>
     </div>
-
   );
 };
 

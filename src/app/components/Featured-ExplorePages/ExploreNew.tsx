@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ExploreNew = () => {
   return (
-  <div className="relative items-center justify-center w-[1300px] h-[480px] mt-32">
+  <div className="relative items-center justify-center w-[1300px] h-[520px] mt-40">
     {/* Rotated Text */}
     <div className="absolute -left-40 top-1/2 transform -rotate-90 text-gray-800 text-[18px] font-medium">
       Explore new and popular styles
