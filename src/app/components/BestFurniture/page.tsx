@@ -3,6 +3,9 @@ import { Heebo } from 'next/font/google'
 import Image from 'next/image'
 
 const heebo = Heebo({subsets:['latin']})
+const Images = {
+  image1:"/Images/ProductImage.png"
+}
 
 const HomePage1 = () => {
   return (
@@ -16,7 +19,7 @@ const HomePage1 = () => {
       </div>
       {/* Image div*/}
       <div className='w-[292px] h-[270px] relative'>
-        <Image src={"/ProductImage.png"} alt ='Product' width={270} height={270} />
+        <Image src={Images.image1} alt ='Product' width={270} height={270} />
       </div>
     </div>
   );

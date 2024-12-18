@@ -40,7 +40,7 @@ export default function Home() {
             .map((_, idx) => (
               <div key={idx} className="-ml-10 text-center">
                 <div className="w-60 h-50 rounded-lg flex justify-center items-center">
-                  <Image className='z-30' src={"/Image13.png"} alt ='Product' width={175} height={175}/>
+                  <Image src={"/Images/Image13.png"} alt ='Product' width={175} height={175} className='z-30'/>
                 </div>
                 <h3 className="text-sm font-medium mt-2 text-center">Library Stool Chair</h3>
                 <p className="text-sm font-bold text-center">$99</p>

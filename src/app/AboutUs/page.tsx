@@ -1,7 +1,9 @@
 import React from "react";
 import PopularProducts from "./PopularProduct";
-import Image from "next/image";
 
+const MainImageUrl ={
+  Image1:"/Images/Card.png"
+}
 
 const AboutUs = () => {
   return (
@@ -23,10 +25,8 @@ const AboutUs = () => {
           </div>
         </div>
 
-       {/* Right Section: Image */}
-       <div className="w-full lg:w-[600px] rounded-lg overflow-hidden">
-          <Image width={600} height={378} alt="Library Stool Chair" src="/Card.png"
-            className="w-full h-auto object-cover hover:border-2"/>
+        <div className="flex">
+          <img src={MainImageUrl.Image1} alt="Chair" className="w-[619px] h-[478px]"/>
         </div>
       </div>
 

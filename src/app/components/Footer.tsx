@@ -7,6 +7,11 @@ import Image from 'next/image';
 
 const heebo = Heebo({subsets:["latin"]})
 
+const ImageLogo = {
+  image1:"/Images/Logo.png",
+  image2:"/Images/Logos.png",
+}
+
 const Footer = () => {
   return  (
     <footer className="w-[1350px] h-[150px] ml-36 mt-4">
@@ -16,7 +21,7 @@ const Footer = () => {
     <div className="grid grid-cols-1 md:grid-cols-4">
       {/* Column 1: Logo */}
       <div className="flex flex-col items-start">
-      <Image src="/Logo.png" alt="Logo" width={150} height={150}/>
+      <Image src={ImageLogo.image1} alt="Logo" width={150} height={150}/>
       <p className={`${heebo.className} text-gray-500 text-[12px] mt-2`}>Vivamus tristique odio sit amet velit semper,<br /> eu posuere turpis interdum. <br /> Cras egestas purus</p>
       <div className='flex space-x-6 mt-5'>
          <Link href={'#'}><RiFacebookCircleLine className='w-[20px] h-[20px] text-slate-500'/></Link>
@@ -65,7 +70,7 @@ const Footer = () => {
     <div className='flex justify-between items-center'>
       <p className='w-[380px] h-[22px] text-[10px] flex'>@2021 - Blogy - Designed & Develop by</p> 
       <span className='-ml-[1040px] font-bold text-[10px]'>Zakirsoft</span>
-      <Image src={'/Logos.png'} alt='Logos' width={270} height={27} className='relative blend-color'/>
+      <Image src={ImageLogo.image2} alt='Logos' width={270} height={27} className='relative blend-color'/>
     </div>
   </footer>
   )

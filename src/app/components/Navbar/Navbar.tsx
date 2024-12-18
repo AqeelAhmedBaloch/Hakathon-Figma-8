@@ -5,6 +5,9 @@ import { FiAlertCircle, FiShoppingCart } from "react-icons/fi";
 import Image from 'next/image'
 import { useRouter } from "next/navigation";
 
+const LogoImages = {
+  image1:"/Images/Logo.png"
+}
 
 
 const Navbar = () => {
@@ -33,7 +36,7 @@ const Navbar = () => {
       <div className="bg-[#F0F2F3]">
         <div className="py-2 flex flex-col lg:flex-row items-center lg:justify-between px-5 lg:px-40">
           {/* Logo */}
-          <Image src="/Logo.png" alt="Logo" width={175} height={175} className="w-auto h-auto"/>
+          <Image src={LogoImages.image1} alt="Logo" width={175} height={175} className="w-auto h-auto"/>
 
           {/* Cart Button */}
           <div className="mt-3 lg:mt-0 flex items-center gap-3">

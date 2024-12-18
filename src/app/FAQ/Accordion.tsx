@@ -12,8 +12,6 @@ const Accordion = () => {
       </div>
 
       {/* Content */}
-    
-
         <p className="mt-4 text-[12px] text-gray-600 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam
           amet delectus libero veritatis enim repellat optio rerum delectus deserunt, odit

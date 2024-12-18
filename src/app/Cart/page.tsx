@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+const ImagesRoot ={
+  Image1:"/Images/Image3.png",
+  Image2:"/Images/Image3.png"
+}
 
 export default function CartPage() {
   return (
@@ -12,7 +16,7 @@ export default function CartPage() {
         <div className="flex items-center justify-between border-b py-4">
           {/* Left - Image and Info */}
           <div className="flex items-center gap-4">
-            <Image src="/Image3.png"  alt="Library Stool Chair" width={130} height={130} className="rounded"/>
+            <Image src={ImagesRoot.Image1}  alt="Library Stool Chair" width={130} height={130} className="rounded"/>
             <div>
               <h3 className="font-medium">Library Stool Chair</h3>
               <p className="text-sm text-gray-500">Ashen Slate/Cobalt Bliss</p>
@@ -27,7 +31,7 @@ export default function CartPage() {
         <div className="flex items-center justify-between border-b py-4">
           {/* Left - Image and Info */}
           <div className="flex items-center gap-4">
-            <Image src="/Image4.png"  alt="Library Stool Chair" width={130} height={130} className="rounded"/>
+            <Image src={ImagesRoot.Image2}  alt="Library Stool Chair" width={130} height={130} className="rounded"/>
             <div>
               <h3 className="font-medium">Library Stool Chair</h3>
               <p className="text-sm text-gray-500">Ashen Slate/Cobalt Bliss</p>

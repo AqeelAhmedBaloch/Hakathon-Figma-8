@@ -1,6 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
+const ImageRoot ={
+  image1:"/Images/Image1.png",
+  image2:"/Images/Image2.png",
+  image3:"/Images/Image3.png",
+  image4:"/Images/Image4.png",
+  image5:"/Images/Image11.png",
+  image6:"/Images/Image12.png"
+
+}
 
 const Newsletter = () => {
   return (
@@ -19,12 +28,12 @@ const Newsletter = () => {
         </div>
         <div className="w-auto h-[200px]">
         <div className="flex justify-center space-x-14 mt-20 ml-8">
-        <Image src={"/Image1.png"} alt="Image1" width={150} height={150} />
-        <Image src={"/Image2.png"} alt="Image1" width={150} height={150} />
-        <Image src={"/Image3.png"} alt="Image1" width={150} height={150} />
-        <Image src={"/Image4.png"} alt="Image1" width={150} height={150} />
-        <Image src={"/Image11.png"} alt="Image1" width={150} height={150} />
-        <Image src={"/Image12.png"} alt="Image1" width={150} height={150} />
+        <Image src={ImageRoot.image1} alt="Image1" width={150} height={150} />
+        <Image src={ImageRoot.image2} alt="Image2" width={150} height={150} />
+        <Image src={ImageRoot.image3} alt="Image3" width={150} height={150} />
+        <Image src={ImageRoot.image4} alt="Image4" width={150} height={150} />
+        <Image src={ImageRoot.image5} alt="Image5" width={150} height={150} />
+        <Image src={ImageRoot.image6} alt="Image6" width={150} height={150} />
         </div>
       </div>
         
