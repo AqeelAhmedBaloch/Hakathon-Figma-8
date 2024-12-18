@@ -1,8 +1,8 @@
 import React from "react";
 import PopularProducts from "./PopularProduct";
 
-const MainImageUrl :{
-  Image1:"Card.png",
+const MainImageUrl ={
+  Image1:"Card.png"
 }
 
 const AboutUs = () => {
