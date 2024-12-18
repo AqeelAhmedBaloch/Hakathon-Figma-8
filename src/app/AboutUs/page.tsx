@@ -1,6 +1,9 @@
 import React from "react";
 import PopularProducts from "./PopularProduct";
 
+const MainImageUrl :{
+  Image1:"Card.png",
+}
 
 const AboutUs = () => {
   return (
@@ -22,7 +25,7 @@ const AboutUs = () => {
         </div>
 
         <div className="flex items-center justify-center bg-gray-200">
-          <img src="/Card.png" alt="Chair" width={619} height={478} className="object-cover w-[619px] h-[478px]"/>
+          <img src={MainImageUrl.Image1} alt="Chair" width={619} height={478} className="object-cover w-[619px] h-[478px]"/>
         </div>
       </section>
 

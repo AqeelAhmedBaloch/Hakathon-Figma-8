@@ -1,56 +1,37 @@
-import Image from "next/image";
-import React from "react";
-
 const PopularProducts = () => {
-  // Product Data
-  const products = [
-    {
-      id: 1,
-      name: "The Poplar suede sofa",
-      price: "$89.00",
-      image: "/Large.png",
-    },
-    {
-      id: 2,
-      name: "The Dandy chair",
-      price: "$99.00",
-      image: "/card4.png",
-    },
-    {
-      id: 3,
-      name: "The Dandy chair",
-      price: "$99.00",
-      image: "/image11.png",
-    },
-  ];
+
+  const ImageUrl = {
+    Imgurl1: "/Large.png",
+    Imgurl2: "/Photo1.png",
+    Imgurl3: "/Photo2.png"
+  }
 
   return (
-    <section className="md:px-12 lg:px-18 py-4">
-      {/* Section Heading */}
-      <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Popular Products</h2>
-
-      {/* Product Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 space-x-16">
-        {products.map((product) => (
-          <div key={product.id} className="text-start">
-            {/* Product Image */}
-            <div className="mb-3">
-              <img
-                src={product.image}
-                alt={product.name}
-                width={200}
-                height={300}
-                className="object-cover w-[400px] h-[300px]"
-              />
+    <div className="ml-3 w-[1250px] h-[450px]">
+      <div className="text-2xl md:text-2xl font-bold">
+        Our Popular Products
+        <div className="flex gap-5 mt-4">
+          <img src={ImageUrl.Imgurl1} alt={"Large"} className="w-[600px] h-[350px] rounded-lg"/>
+          <img src={ImageUrl.Imgurl2} alt={"Photo1"} className="w-[300px] h-[350px] rounded-lg"/>
+          <img src={ImageUrl.Imgurl3} alt={"Photo2"} className="w-[300px] h-[350px] rounded-lg"/>
+        </div>
+      <div className="w-[1240px] h-[50px]">
+          {/* Product 1 */}
+          <div className="flex justify-between">
+            <h3 className="font-medium text-gray-600 text-[12px]">The Poplar suede sofa</h3>
+            <h3 className="font-medium text-gray-600 text-[12px] ml-[265px]">The Dandy chair</h3>
+            <h3 className="font-medium text-gray-600 text-[12px] mr-52">The Dandy chair</h3>
             </div>
-
-            {/* Product Details */}
-            <h3 className="font-medium text-[12px] mb-1">{product.name}</h3>
-            <p className="text-gray-600 text-[12px] font-semibold">{product.price}</p>
+            <div className="flex gap-[582px] -mt-5">
+              <span className="text-gray-600 text-[12px] font-semibold">$99.00</span>
+              <span className="text-gray-600 text-[12px] font-semibold">$199.00</span>
           </div>
-        ))}
+          <div className="flex justify-end items-center -mt-8">
+              <span className="text-gray-600 text-[12px] font-semibold mr-[253px] ">$299.00</span>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 
