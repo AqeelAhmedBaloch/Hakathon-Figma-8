@@ -27,7 +27,7 @@ const AboutUs = () => {
         </div>
 
         <div className="flex">
-          <Image src={MainImageUrl.Image1} alt="Chair" className="w-[619px] h-[478px]"/>
+          <Image src={MainImageUrl.Image1} alt="Chair" width={619} height={478} className="w-[619px] h-[478px]"/>
         </div>
       </div>
 

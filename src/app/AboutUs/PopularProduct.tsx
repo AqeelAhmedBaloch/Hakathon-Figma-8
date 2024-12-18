@@ -3,9 +3,9 @@ import Image from "next/image";
 const PopularProducts = () => {
 
   const ImageUrl = {
-    Imgurl1: "/Large.png",
-    Imgurl2: "/Photo1.png",
-    Imgurl3: "/Photo2.png"
+    Imgurl1: "/Images/Large.png",
+    Imgurl2: "/Images/Photo1.png",
+    Imgurl3: "/Images/Photo2.png"
   }
 
   return (
@@ -13,9 +13,9 @@ const PopularProducts = () => {
       <div className="text-2xl md:text-2xl font-bold">
         Our Popular Products
         <div className="flex gap-5 mt-4">
-          <Image src={ImageUrl.Imgurl1} alt={"Large"} className="w-[600px] h-[350px] rounded-lg"/>
-          <Image src={ImageUrl.Imgurl2} alt={"Photo1"} className="w-[300px] h-[350px] rounded-lg"/>
-          <Image src={ImageUrl.Imgurl3} alt={"Photo2"} className="w-[300px] h-[350px] rounded-lg"/>
+          <Image src={ImageUrl.Imgurl1} alt={"Large"} width={600} height={350} className="w-[600px] h-[350px] rounded-lg"/>
+          <Image src={ImageUrl.Imgurl2} alt={"Photo1"} width={600} height={350} className="w-[300px] h-[350px] rounded-lg"/>
+          <Image src={ImageUrl.Imgurl3} alt={"Photo2"} width={600} height={350} className="w-[300px] h-[350px] rounded-lg"/>
         </div>
       <div className="w-[1240px] h-[50px]">
           {/* Product 1 */}
