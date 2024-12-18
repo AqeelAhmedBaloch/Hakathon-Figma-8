@@ -2,12 +2,17 @@
 import Image from "next/image";
 import { IoCartOutline } from "react-icons/io5";
 
+const ImagesSingle = {
+  image1 : "/Images/Image2.png",
+  image2 : "/Images/Image13.png",
+}
+
 export default function Home() {
   return (
     <div className="container mx-auto px-32 py-10">
       <div className="flex justify-between items-start">
         <div className="w-[375px] h-[307px]">
-          <Image src="/Image2.png" alt="Library Stool Chair" width={375} height={307} className="rounded-lg"/>
+          <Image src={ImagesSingle.image1} alt="Library Stool Chair" width={375} height={307} className="rounded-lg"/>
         </div>
         <div className="w-[305px] h-[80px]">
           <h1 className="text-4xl font-bold">Library Stool Chair</h1>
@@ -40,7 +45,7 @@ export default function Home() {
             .map((_, idx) => (
               <div key={idx} className="-ml-10 text-center">
                 <div className="w-60 h-50 rounded-lg flex justify-center items-center">
-                  <Image src={"/Images/Image13.png"} alt ='Product' width={175} height={175} className='z-30'/>
+                  <Image src={ImagesSingle.image2} alt ='Product' width={175} height={175} className='z-30'/>
                 </div>
                 <h3 className="text-sm font-medium mt-2 text-center">Library Stool Chair</h3>
                 <p className="text-sm font-bold text-center">$99</p>
