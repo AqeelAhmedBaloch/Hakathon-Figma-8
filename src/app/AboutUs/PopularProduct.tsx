@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const PopularProducts = () => {
 
   const ImageUrl = {
@@ -11,9 +13,9 @@ const PopularProducts = () => {
       <div className="text-2xl md:text-2xl font-bold">
         Our Popular Products
         <div className="flex gap-5 mt-4">
-          <img src={ImageUrl.Imgurl1} alt={"Large"} className="w-[600px] h-[350px] rounded-lg"/>
-          <img src={ImageUrl.Imgurl2} alt={"Photo1"} className="w-[300px] h-[350px] rounded-lg"/>
-          <img src={ImageUrl.Imgurl3} alt={"Photo2"} className="w-[300px] h-[350px] rounded-lg"/>
+          <Image src={ImageUrl.Imgurl1} alt={"Large"} className="w-[600px] h-[350px] rounded-lg"/>
+          <Image src={ImageUrl.Imgurl2} alt={"Photo1"} className="w-[300px] h-[350px] rounded-lg"/>
+          <Image src={ImageUrl.Imgurl3} alt={"Photo2"} className="w-[300px] h-[350px] rounded-lg"/>
         </div>
       <div className="w-[1240px] h-[50px]">
           {/* Product 1 */}
