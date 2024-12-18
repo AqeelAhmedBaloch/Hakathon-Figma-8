@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div className="mt-8 ml-40 mr-40">
       {/* Hero Section */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
         {/* Left Side */}
         <div className="bg-teal-800 text-white p-8 flex items-center">
           <div>
@@ -27,9 +27,9 @@ const AboutUs = () => {
         <div className="flex items-center justify-center bg-gray-200">
           <img src={MainImageUrl.Image1} alt="Chair" className="object-cover w-[619px] h-[478px]"/>
         </div>
-      </section>
+      </div>
 
-      <section className="text-center mb-12">
+      <div className="text-center mb-12">
         <h3 className="text-xl md:text-2xl font-bold mb-6">What Makes Our Brand Different</h3>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-4">
           <div className="bg-gray-100 p-6 rounded-lg">
@@ -53,7 +53,7 @@ const AboutUs = () => {
             <p className="text-sm">We use 100% recycled to ensure our footprint is more manageable.</p>
           </div>
         </div>
-      </section>
+      </div>
       <PopularProducts/>
      </div>
   );
