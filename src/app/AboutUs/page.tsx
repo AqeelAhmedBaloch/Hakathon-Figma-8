@@ -11,6 +11,7 @@ const AboutUs = () => {
       {/* Hero Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
         {/* Left Side */}
+
         <div className="bg-teal-800 text-white p-8 flex items-center">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4">About Us - Comforty</h2>
@@ -24,7 +25,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex">
           <img src={MainImageUrl.Image1} alt="Chair" className="w-[619px] h-[478px]"/>
         </div>
       </div>
