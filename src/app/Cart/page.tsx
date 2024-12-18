@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ImagesRoot ={
   Image1:"/Images/Image3.png",
-  Image2:"/Images/Card2.png"
+  Image2:"/Images/Card4.png"
 }
 
 export default function CartPage() {
