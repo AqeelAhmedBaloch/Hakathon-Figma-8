@@ -24,7 +24,7 @@ const AboutUs = () => {
         </div>
 
        {/* Right Section: Image */}
-       <div className="w-full lg:w-[600px] bg-gray-400 rounded-lg overflow-hidden">
+       <div className="w-full lg:w-[600px] rounded-lg overflow-hidden">
           <Image width={600} height={378} alt="Library Stool Chair" src="/Card.png"
             className="w-full h-auto object-cover hover:border-2"/>
         </div>
