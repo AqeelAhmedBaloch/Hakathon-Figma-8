@@ -5,7 +5,7 @@ import { IoCartOutline } from "react-icons/io5";
 const ImagesSingle = {
   image1: "/Images/Image2.png",
   image2: "/Images/Image.png",
-  image3: "/Images/Card2.png",
+  image3: "/Images/Card5.png",
   image4: "/Images/Image13.png",
   image5: "/Images/Image3.png",
   image6: "/Images/Image11.png",
