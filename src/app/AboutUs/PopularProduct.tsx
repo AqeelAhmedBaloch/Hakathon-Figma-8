@@ -24,7 +24,7 @@ const PopularProducts = () => {
               <span className="text-gray-600 text-[12px] font-semibold">$199.00</span>
           </div>
           <div className="flex justify-end items-center -mt-8">
-              <span className="text-gray-600 text-[12px] font-semibold mr-[253px] ">$299.00</span>
+          <span className="text-gray-600 text-[12px] font-semibold mr-[253px] ">$299.00</span>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Footer = () => {
       <Image src={ImageLogo.image1} alt="Logo" width={150} height={150}/>
       <p className={`${heebo.className} text-gray-500 text-[12px] mt-2`}>Vivamus tristique odio sit amet velit semper,<br /> eu posuere turpis interdum. <br /> Cras egestas purus</p>
       <div className='flex space-x-6 mt-5'>
-         <Link href={'#'}><RiFacebookCircleLine className='w-[20px] h-[20px] text-slate-500'/></Link>
+         <Link href={'#'}><RiFacebookCircleLine className='w-[20px] h-[20px] text-[#007580]'/></Link>
          <Link href={'#'}><FaTwitter className='w-[20px] h-[20px] text-slate-500'/></Link>
          <Link href={'#'}><FaInstagram className='w-[20px] h-[20px] text-slate-500'/></Link>
          <Link href={'#'}><FaPinterest className='w-[20px] h-[20px] text-slate-500'/></Link>
