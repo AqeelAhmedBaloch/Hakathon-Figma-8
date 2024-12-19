@@ -3,14 +3,13 @@ import Image from "next/image";
 import { IoCartOutline } from "react-icons/io5";
 
 const ImagesPro = {
-  image1:"/Images/Image1.png",
-  image2:"/Images/Image2.png",
-  image3:"/Images/Image3.png",
-  image4:"/Images/Image4.png",
-}
+    image1:"/Images/StolImage.png",
+    image2:"/Images/Card4.png",
+    image3:"/Images/ImagePro.png",
+    image4:"/Images/Card3.png",
+  }
 
-
-const OurProductImage = () => {
+const OurProductImage1 = () => {
   return (
 <div className="flex justify-between">
   {/* Product 1 */}
@@ -55,7 +54,7 @@ const OurProductImage = () => {
     </p>
   </div>
 </div>
-  );
-};
+  )
+}
 
-export default OurProductImage;
+export default OurProductImage1
