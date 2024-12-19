@@ -2,9 +2,6 @@ import React from "react";
 import PopularProducts from "./PopularProduct";
 import Image from "next/image";
 
-const AboutImage = {
-  Image:"/Images/Card.png"
-}
 
 const AboutUs = () => {
   return (
@@ -27,7 +24,7 @@ const AboutUs = () => {
         </div>
 
         <div className="flex">
-          <Image src={AboutImage.Image} alt="Image" width={619} height={478} className="w-[619px] h-[478px]"/>
+          <Image src="/Images/Card.png" alt="Image" width={619} height={478} className="w-[619px] h-[478px]"/>
         </div>
       </div>
 
