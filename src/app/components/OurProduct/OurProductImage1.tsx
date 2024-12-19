@@ -4,9 +4,9 @@ import { IoCartOutline } from "react-icons/io5";
 
 const ImagesPro = {
     image1:"/Images/StolImage.png",
-    image2:"/Images/Card4.png",
+    image2:"/Images/ImagePro3.png",
     image3:"/Images/ImagePro.png",
-    image4:"/Images/Card3.png",
+    image4:"/Images/ImagePro4.png",
   }
 
 const OurProductImage1 = () => {
