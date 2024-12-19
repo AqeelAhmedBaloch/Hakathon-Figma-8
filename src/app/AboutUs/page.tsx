@@ -24,7 +24,7 @@ const AboutUs = () => {
         </div>
 
         <div className="flex">
-          <Image src="/Images/Card.png" alt="Image" width={619} height={478} className="w-[619px] h-[478px]"/>
+          <Image src="/Images/123.png" alt="Image" width={619} height={478} className="w-[619px] h-[478px]"/>
         </div>
       </div>
 
