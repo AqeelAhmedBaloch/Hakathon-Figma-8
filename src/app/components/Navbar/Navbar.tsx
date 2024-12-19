@@ -39,7 +39,7 @@ const Navbar = () => {
 
           {/* Cart Button */}
           <div className="mt-3 lg:mt-0 flex items-center gap-3">
-            <button onClick={() => router.push('/Cart')} className="w-[120px] h-[42px] flex justify-center items-center gap-2 bg-[#FAFAFA] rounded-lg"><FiShoppingCart />Cart
+            <button onClick={() => router.push('#')} className="w-[120px] h-[42px] flex justify-center items-center gap-2 bg-[#FAFAFA] rounded-lg"><FiShoppingCart />Cart
               <p className="w-[25px] h-[25px] text-center text-[#FAFAFA] bg-[#007580] rounded-full">2</p>
             </button>
           </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
       <nav className="px-5 lg:px-40">
         <ul className="mt-7 text-[16px] flex flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-7 items-center lg:items-start">
           <Link href="/" className="hover:text-[#007580] hover:underline">Home</Link>
-          <Link href="#" className="hover:text-[#007580] hover:underline">Shop</Link>
+          <Link href="/Cart" className="hover:text-[#007580] hover:underline">Shop</Link>
           <Link href="/AllProduct" className="hover:text-[#007580] hover:underline">Product</Link>
           <Link href="/SinglePage" className="hover:text-[#007580] hover:underline">Pages</Link>
           <Link href="AboutUs" className="hover:text-[#007580] hover:underline">About</Link>
