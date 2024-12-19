@@ -24,7 +24,7 @@ const TopCategories = () => {
 
         {/* Image 2 */}
         <div className="relative">
-          <Image src={ImagesTop.image1} alt="Image2" width={350} height={350} />
+          <Image src={ImagesTop.image2} alt="Image2" width={350} height={350}/>
           <div className="absolute bottom-0 left-0 w-full h-[40px] bg-black bg-opacity-50 text-white text-start flex items-start justify-start p-1">
             <div className="ml-2 text-[12px] text-gray-300">
               <p>Wooden Chair</p><span className="text-[8px]">157 Products</span>

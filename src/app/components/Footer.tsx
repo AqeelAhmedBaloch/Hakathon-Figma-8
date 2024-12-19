@@ -59,7 +59,7 @@ const Footer = () => {
           <input
             type="email"
             placeholder="Your email"
-            className="px-2 py-1 text-black rounded-l-md w-[170px]"
+            className="px-2 py-1 text-black rounded-l-md w-[170px] border-none border-b-2 border-gray-200 rounded-sm outline-none"
           />
           <button className="px-2 py-1 ml-2 bg-[#029FAE] rounded-md hover:bg-[#029FAE] text-white">Subscribe</button>
         </div>
@@ -68,9 +68,8 @@ const Footer = () => {
     </div>
     <hr className='border-b-2 my-2' />
     <div className='flex justify-between items-center'>
-      <p className='w-[380px] h-[22px] text-[10px] flex'>@2021 - Blogy - Designed & Develop by</p> 
-      <span className='-ml-[1040px] font-bold text-[10px]'>Zakirsoft</span>
-      <Image src={ImageLogo.image2} alt='Logos' width={270} height={27} className='relative blend-color'/>
+      <p className='w-[380px] h-[22px] text-[10px]'>@2021 - Blogy - Designed & Develop by <b>Zakirsoft</b></p> 
+      <Image src={ImageLogo.image2} alt='Logos' width={270} height={27} className='relative blend-darken'/>
     </div>
   </footer>
   )

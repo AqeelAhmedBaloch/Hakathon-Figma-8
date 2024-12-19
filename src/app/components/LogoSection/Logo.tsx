@@ -14,13 +14,13 @@ const Images = {
 const Logo = () => {
   return (
     <div className='flex justify-between w-[1285px] h-[20px] ml-40 top-1'>
-      <Image src={Images.image1} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
-      <Image src={Images.image2} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
-      <Image src={Images.image3} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
-      <Image src={Images.image4} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
-      <Image src={Images.image5} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
-      <Image src={Images.image6} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
-      <Image src={Images.image7} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px]'/>
+      <Image src={Images.image1} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
+      <Image src={Images.image2} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
+      <Image src={Images.image3} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
+      <Image src={Images.image4} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
+      <Image src={Images.image5} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
+      <Image src={Images.image6} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
+      <Image src={Images.image7} alt ='hero-image' width={150} height={175} className='h-[90px] w-[85px] transition-all duration-300 hover:scale-90'/>
     </div>
   )
 }
