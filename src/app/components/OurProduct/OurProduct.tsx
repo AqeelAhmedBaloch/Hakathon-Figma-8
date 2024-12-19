@@ -1,7 +1,6 @@
 import React from "react";
 import OurProductImage from "./OurProductImage";
 import OurProductImage1 from "./OurProductImage1";
-import OurProductImage2 from "./OurProductImage2";
 
 const OurProduct = () => {
   return (
