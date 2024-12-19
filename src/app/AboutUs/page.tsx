@@ -43,8 +43,7 @@ const AboutUs = () => {
 
           <div className="bg-gray-200 p-6 rounded-lg">
             <h4 className="font-semibold mb-2">Unbeatable prices</h4>
-            <p className="text-sm">For our materials and quality you wont find better prices
-              anywhere.</p>
+            <p className="text-sm">For our materials and quality you wont find better prices anywhere.</p>
           </div>
 
           <div className="bg-gray-200 p-6 rounded-lg">

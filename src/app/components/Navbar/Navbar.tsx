@@ -12,7 +12,6 @@ const LogoImages = {
 
 const Navbar = () => {
   const router = useRouter()
-  
   return (
     <>
     <div className="">
