@@ -11,9 +11,6 @@ const OurProduct = () => {
       <div className="mt-2">
         <OurProductImage1 />
       </div>
-      <div className="mt-2">
-        <OurProductImage2 />
-      </div>
     </div>
   );
 };
