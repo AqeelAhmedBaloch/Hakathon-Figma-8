@@ -4,8 +4,8 @@ import OurProductImage1 from "./OurProductImage1";
 
 const OurProduct = () => {
   return (
-    <div className="w-[1340px] h-[600px]">
-      <h1 className="text-[24px] font-semibold mb-5 text-center">Our Products</h1>
+    <div className="w-[1300px] h-[600px]">
+      <h1 className="text-[28px] font-semibold mb-5 text-center">Our Products</h1>
       <OurProductImage />
       <div className="mt-2">
         <OurProductImage1 />
